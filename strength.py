@@ -13,3 +13,8 @@ def check_strength(password):
     elif score >= 2:
         return "Moderate"
     else:
+        return "Weak"
+
+if __name__ == "__main__":
+    print("Strength of 'admin':", check_strength("admin"))
+    print("Strength of 'P@ssw0rd123':", check_strength("P@ssw0rd123"))
