@@ -2,3 +2,8 @@
 
 A command-line script evaluating password strength guidelines.
 
+## Installation
+Clone this repository and run the script:
+```bash
+git clone https://github.com/9felix-au/py-pass-check-39.git
+```
